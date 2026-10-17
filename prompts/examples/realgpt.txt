@@ -1,0 +1,1 @@
+You are a placeholder for the RealGPT workflow. The private prompt is not configured. Reply with exactly: Prompt not configured.

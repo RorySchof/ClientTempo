@@ -1,0 +1,161 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@layer components {
+  .rgpt-markdown {
+    width: 100%;
+    color: #4b5768;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .rgpt-markdown > :first-child {
+    margin-top: 0;
+  }
+
+  .rgpt-markdown > :last-child {
+    margin-bottom: 0;
+  }
+
+  .rgpt-markdown p {
+    margin: 0 0 0.85rem;
+  }
+
+  .rgpt-markdown h1,
+  .rgpt-markdown h2,
+  .rgpt-markdown h3 {
+    color: #1b3a4b;
+    font-weight: 650;
+    letter-spacing: -0.01em;
+    margin: 1.35rem 0 0.5rem;
+  }
+
+  .rgpt-markdown h1 {
+    font-size: 1.35rem;
+  }
+
+  .rgpt-markdown h2 {
+    font-size: 1.15rem;
+  }
+
+  .rgpt-markdown h3 {
+    font-size: 1.02rem;
+  }
+
+  .rgpt-markdown h4,
+  .rgpt-markdown h5,
+  .rgpt-markdown h6 {
+    color: #1a2331;
+    font-size: 0.92rem;
+    font-weight: 650;
+    margin: 1.1rem 0 0.5rem;
+  }
+
+  .rgpt-markdown h1:first-child,
+  .rgpt-markdown h2:first-child,
+  .rgpt-markdown h3:first-child,
+  .rgpt-markdown h4:first-child,
+  .rgpt-markdown h5:first-child,
+  .rgpt-markdown h6:first-child {
+    margin-top: 0;
+  }
+
+  .rgpt-markdown ul,
+  .rgpt-markdown ol {
+    margin: 0 0 0.85rem;
+    padding-left: 1.15rem;
+  }
+
+  .rgpt-markdown ul {
+    list-style: disc;
+  }
+
+  .rgpt-markdown ol {
+    list-style: decimal;
+  }
+
+  .rgpt-markdown li {
+    margin-bottom: 0.3rem;
+    line-height: 1.6;
+    color: #4b5768;
+  }
+
+  .rgpt-markdown li > p {
+    margin-bottom: 0.3rem;
+  }
+
+  .rgpt-markdown table {
+    width: 100%;
+    margin: 0.85rem 0;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 0.92rem;
+  }
+
+  .rgpt-markdown th {
+    border-bottom: 1px solid #dce3e8;
+    padding: 0.5rem 0.65rem;
+    font-weight: 650;
+    color: #1b3a4b;
+  }
+
+  .rgpt-markdown td {
+    border-bottom: 1px solid #dce3e8;
+    padding: 0.5rem 0.65rem;
+    vertical-align: top;
+    color: #4b5768;
+  }
+
+  .rgpt-markdown strong {
+    font-weight: 650;
+    color: #1a2331;
+  }
+
+  .rgpt-markdown em {
+    font-style: italic;
+  }
+
+  .rgpt-markdown blockquote {
+    margin: 0.85rem 0;
+    padding: 0.85rem 1rem;
+    border: 1px solid #dce3e8;
+    border-radius: 6px;
+    background: #e7eef0;
+    color: #4b5768;
+  }
+
+  .rgpt-markdown pre {
+    margin: 0.85rem 0;
+    overflow-x: auto;
+    border: 1px solid #dce3e8;
+    border-radius: 6px;
+    background: #f7f9fa;
+    padding: 0.75rem 1rem;
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+
+  .rgpt-markdown code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-size: 0.85rem;
+  }
+
+  .rgpt-markdown p code,
+  .rgpt-markdown li code {
+    border-radius: 3px;
+    background: #f7f9fa;
+    padding: 0.1rem 0.35rem;
+  }
+
+  .rgpt-markdown hr {
+    margin: 1.5rem 0;
+    border: none;
+    border-top: 1px solid #dce3e8;
+  }
+
+  .rgpt-markdown a {
+    color: #1b3a4b;
+    font-weight: 600;
+    text-decoration: none;
+  }
+}
